@@ -1,0 +1,63 @@
+@charset "UFT-8";
+
+html {
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #6ba2a9;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 150px;
+    color: #154563;
+}
+h2{
+    color: #154563;
+}
+h3{
+    color: #154563;
+    margin: 50px;
+    padding-top: 100px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+p{
+    color: #154563;
+}
+
+/*--------index------
+*/
+.hero{
+    text-align: center;
+}
+.sakuhin{
+    margin: 100px;
+}
+.index{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+}
+.profile{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:480px)
+{
+    .index{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
