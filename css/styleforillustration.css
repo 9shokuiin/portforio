@@ -1,0 +1,145 @@
+@charset "UFT-8";
+
+@media screen and (min-width: 769px){
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(25deg, #39c1c7,  #8bb6b7, #b8a9a7,#dc9a97);
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    margin: 100px 5%;
+    color: white;
+    font-family: 'Mongolian Baiti',sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+.imgbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    overflow: hidden;
+}
+.imgbox img{
+    height: 500px;
+    flex-grow: 1;
+    object-fit: cover;
+    margin: 5px;
+}
+.icon{
+    margin: 100px;
+    text-align: center;
+}
+.icon img{
+    width: 5%;
+}
+}
+
+/*-----------------------------------------------
+*/
+
+@media screen and (max-width: 768px) and (min-width: 479px){
+    html{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(25deg, #dc9a97, #b8a9a7, #8bb6b7, #39c1c7);
+        overflow-x: hidden;
+    }
+    h1{
+        text-align: center;
+        margin: 100px 5%;
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+        font-size: 3em;
+    }
+    .imgbox{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        overflow: hidden;
+    }
+    .imgbox img{
+        height: 300px;
+        flex-grow: 1;
+        object-fit: cover;
+        margin: 5px;
+    }
+    .icon{
+        margin: 100px;
+        text-align: center;
+    }
+    .icon img{
+        width: 10%;
+    }
+}
+
+/*------------------------------------------
+*/
+
+@media screen and (max-width: 480px){
+    html{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(25deg, #dc9a97, #b8a9a7, #8bb6b7, #39c1c7);
+        overflow-x: hidden;
+    }
+    h1{
+        text-align: center;
+        margin: 100px 5%;
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+        font-size: 3em;
+    }
+    .imgbox{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        overflow: hidden;
+    }
+    .imgbox .pic{
+        height: 300px;
+        flex-grow: 1;
+        object-fit: cover;
+        margin: 5px;
+    }
+    .imgbox .lio{
+        width: 100%;
+        flex-grow: 1;
+        object-fit: cover;
+        margin: 5px;
+    }
+    .icon{
+        margin: 100px;
+        text-align: center;
+    }
+    .icon img{
+        width: 30%;
+    }
+}
