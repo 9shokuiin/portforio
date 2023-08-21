@@ -1,0 +1,58 @@
+@charset "UFT-8";
+
+@media screen and (min-width: 769px){
+    html{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(46deg, #2025c9, #5070d5, #5bb7de, #42ffe5);
+        overflow-x: hidden;
+        height: 100vh;
+    }
+    h1{
+        text-align: center;
+        margin: 100px;
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+        font-size: 3em;
+    }
+    h2{
+        text-align: center;
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+    }
+}
+@media screen and (max-width: 480px){
+    html{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(46deg, #2025c9, #5070d5, #5bb7de, #42ffe5);
+        overflow-x: hidden;
+        height: 100vh;
+    }
+    h1{
+        text-align: center;
+        margin: 100px 5%; 
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+        font-size: 3em;
+    }
+    h2{
+        text-align: center;
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+    }
+}
