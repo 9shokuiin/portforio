@@ -1,6 +1,6 @@
 @charset "UFT-8";
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1150px){
     html{
         box-sizing: border-box;
     }
@@ -11,7 +11,6 @@
         background-size: cover;
         background-image: linear-gradient(46deg, #2025c9, #5070d5, #5bb7de, #42ffe5);
         overflow-x: hidden;
-        height: 100vh;
     }
     h1{
         text-align: center;
@@ -27,8 +26,45 @@
         font-family: 'Mongolian Baiti',sans-serif;
         font-weight: 300;
     }
+    .title2{
+        display: none;
+    }
+    p{
+        color: white;
+        line-height: 2.5em;
+    }
+    .home{
+        display: flex;
+    }
+    .home .pbox{
+        margin: 10%;
+    }
+    .port{
+        width: 40%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 10%;
+        margin-top: 70px;
+    }
+    .portimgs{
+        display: flex;
+        list-style: none;
+        margin: 10%;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .portimgs li{
+        margin-right: 10px;
+    }
+    .portimgs img{
+        height: 250px;
+        width: auto;
+    }
+    .portimgs p{
+       line-height: 0;
+    }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1149px) and (min-width: 800px){
     html{
         box-sizing: border-box;
     }
@@ -39,7 +75,67 @@
         background-size: cover;
         background-image: linear-gradient(46deg, #2025c9, #5070d5, #5bb7de, #42ffe5);
         overflow-x: hidden;
-        height: 100vh;
+    }
+    h1{
+        text-align: center;
+        margin: 100px;
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+        font-size: 3em;
+    }
+    h2{
+        text-align: center;
+        color: white;
+        font-family: 'Mongolian Baiti',sans-serif;
+        font-weight: 300;
+    }
+    .title2{
+        display: none;
+    }
+    p{
+        color: white;
+        line-height: 2.5em;
+    }
+    .home{
+        display: flex;
+    }
+    .home .pbox{
+        margin: 10%;
+    }
+    .port{
+        width: 40%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 10%;
+        margin-top: 70px;
+    }
+    .portimgs{
+        display: flex;
+        list-style: none;
+        margin: 10%;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .portimgs li{
+        margin-right: 10px;
+    }
+    .portimgs img{
+        height: 170px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 799px){
+    html{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(46deg, #2025c9, #5070d5, #5bb7de, #42ffe5);
+        overflow-x: hidden;
     }
     h1{
         text-align: center;
@@ -54,5 +150,36 @@
         color: white;
         font-family: 'Mongolian Baiti',sans-serif;
         font-weight: 300;
+    }
+    p{
+        color: white;
+        line-height: 2em;
+        font-size: 16px;
+    }
+    .title1{
+        display: none;
+    }
+    .home{
+        margin: 10%;
+    }
+    .home .pbox{
+        margin: 10%;
+    }
+    .port{
+        width: 100%;
+    }
+    .portimgs{
+        list-style: none;
+        padding: 0;
+    }
+    .portimgs li{
+        margin: 10%;
+        margin-top: 50px;
+    }
+    .portimgs img{
+        width: 100%;
+    }
+    .portimgs p{
+       line-height: 0;
     }
 }

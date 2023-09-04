@@ -77,6 +77,18 @@
         text-align: center;
         margin-bottom: 100px;
     }
+    .iconbox{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .iconbox li{
+        list-style: none;
+        margin: 10px;
+    }
+    .iconbox img{
+        width: 50px;
+    }
 }
 
 
@@ -158,6 +170,18 @@
     .profile{
         text-align: center;
         margin-bottom: 100px;
+    }
+    .iconbox{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .iconbox li{
+        list-style: none;
+        margin: 10px;
+    }
+    .iconbox img{
+        width: 50px;
     }
 }
 
@@ -244,6 +268,18 @@ p{
 }
 .profile p{
     font-size: 16px;
+}
+.iconbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.iconbox li{
+    list-style: none;
+    margin: 10px;
+}
+.iconbox img{
+    width: 50px;
 }
 
 
